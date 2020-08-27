@@ -1,10 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import products from "./productContent";
 
 const ShopPage = () => (
   <>
     <h1>Shop</h1>
-    <h2>A modern day barbershop for todays gentleman of lesiure</h2>
-    <p>This is the shop home</p>
+    {products.map((product, key) => (
+      <Link key={key} to={`/product/${product.name}`}>
+        <h3>{product.title}</h3>
+      </Link>
+    ))}
   </>
 );
 export default ShopPage;
