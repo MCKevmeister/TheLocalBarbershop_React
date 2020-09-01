@@ -11,14 +11,23 @@ const NavBar = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
+        <img
+          src="https://localbarber.nz/wp-content/uploads/2015/11/local_barber_logo.png"
+          alt="local barber shop logo"
+          width="300"
+        />
         <Link to="/book-now">Book Now</Link>
       </li>
       <li>
         <Link to="/services">Services</Link>
       </li>
       <li>
-                <Link to="/shop
-        ">Shop</Link>
+        <Link
+          to="/shop
+        "
+        >
+          Shop
+        </Link>
       </li>
     </ul>
   </nav>
