@@ -10,7 +10,7 @@ const products = [
     // image: ??
   },
   {
-    name: "beard-ralm",
+    name: "beard-balm",
     title: "Beard Balm ",
     subtitle: "Wood + Spice 100ml",
     description: [

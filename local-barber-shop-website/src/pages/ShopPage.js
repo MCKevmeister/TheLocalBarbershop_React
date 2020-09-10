@@ -5,6 +5,7 @@ import products from "./productContent";
 const ShopPage = () => (
   <>
     <h1>Shop</h1>
+    <p>TODO: Breadcurmbs or equivilent</p>
     {products.map((product, key) => (
       <Link key={key} to={`/product/${product.name}`}>
         <h3>{product.title}</h3>
