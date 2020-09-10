@@ -19,7 +19,14 @@ function App() {
           <Route path="/services" component={ServicesPage} />
           <Route path="/shop" component={ShopPage} />
           <Route path="/product/:product" component={ProductPage} />
-          <Route path="/book-now" component={BookNow} />
+          <Route
+            path="/book-now"
+            component={() => {
+              window.location.href =
+                "https://app.acuityscheduling.com/schedule.php?owner=19461210";
+              return null;
+            }}
+          />
         </div>
       </div>
     </Router>
