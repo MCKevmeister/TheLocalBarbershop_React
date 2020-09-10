@@ -6,8 +6,12 @@ const NavBar = () => (
     <ul>
       <li>
         <a href="/">
-          <img src="https://localbarber.nz/wp-content/uploads/2015/11/local_barber_logo.png" alt="Localbarbershop logo" width='100'/>
-        </a> 
+          <img
+            src="https://localbarber.nz/wp-content/uploads/2015/11/local_barber_logo.png"
+            alt="Localbarbershop logo"
+            width="100"
+          />
+        </a>
       </li>
       <li>
         <Link to="/about">About</Link>
