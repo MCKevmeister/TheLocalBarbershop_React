@@ -1,3 +1,4 @@
+// List of products that are displayed in the store
 const products = [
   {
     name: "bay-rum",
