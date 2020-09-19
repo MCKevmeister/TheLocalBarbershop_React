@@ -24,3 +24,7 @@ yarn-debug.log*
 yarn-error.log*
 ~$B601- The local barbershop website.docx
 *.html
+
+# Marks manual edit
+/lib/node_modules
+
