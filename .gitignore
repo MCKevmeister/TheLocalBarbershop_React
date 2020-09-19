@@ -27,4 +27,6 @@ yarn-error.log*
 
 # Marks manual edit
 /lib/node_modules
-
+/share
+bin/npm
+package-lock.json
