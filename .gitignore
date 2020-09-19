@@ -30,3 +30,4 @@ yarn-error.log*
 /share
 bin/npm
 package-lock.json
+bin/npx
